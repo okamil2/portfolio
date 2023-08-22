@@ -9,12 +9,13 @@ body {
 }
 #hero {
     top: -250px;
-    width: 20%;
+    background-size: auto;
     height: 1vh;
     background-image: url("../assets/background.jpeg");
     background-size: cover;
     position: relative;
     white-space: nowrap;
+    width: 51.5%; 
     margin: 250px;
     padding: 500px;
     left: -15px;
@@ -530,10 +531,8 @@ section {
 --------------------------------------------------------------*/
 
 .column {
-  float: right;
-  width: 33.33%;
-  padding: 5px;
-  padding-left: 150px;
+  float: left;
+  width: 10%;
 }
 
 /* Clearfix (clear floats) */
@@ -542,3 +541,30 @@ section {
   clear: both;
   display: table;
 }
+
+/*--------------------------------------------------------------
+# Skills Styles
+--------------------------------------------------------------*/
+.center {
+    width: 60%;
+  }
+
+.center h4 {
+    font-size: 20px;
+    font-weight: bold;
+
+    position: relative;
+    color: #4b0101;
+    line-height: 1;
+  }
+  
+.center h4::after {
+    content: "";
+    position: sticky;
+    display: block;
+    width: 80px;
+    height: 3px;
+    background: #c40f02;
+    bottom: 0;
+    left: 225px;
+  }
