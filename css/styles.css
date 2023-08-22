@@ -530,17 +530,17 @@ section {
 # Organize FlipCards
 --------------------------------------------------------------*/
 
-.column {
+/* .column {
   float: left;
   width: 10%;
 }
 
 /* Clearfix (clear floats) */
-.row::after {
+/* .row::after {
   content: "";
   clear: both;
   display: table;
-}
+} */ */
 
 /*--------------------------------------------------------------
 # Skills Styles
@@ -552,7 +552,7 @@ section {
 .center h4 {
     font-size: 20px;
     font-weight: bold;
-
+    left: -30px;
     position: relative;
     color: #4b0101;
     line-height: 1;
@@ -566,5 +566,10 @@ section {
     height: 3px;
     background: #c40f02;
     bottom: 0;
-    left: 225px;
-  }
+    left: 194px;
+}
+
+.column{
+    float: left;
+    width: 10%;
+}
